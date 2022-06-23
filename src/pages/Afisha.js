@@ -1,4 +1,4 @@
-import React, { useEffect, useState }  from 'react';
+import React, { useEffect, useState } from 'react';
 import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { collection, getDocs } from 'firebase/firestore/lite';
@@ -29,6 +29,11 @@ function Afisha() {
 
       {afisha.map((item, key) => (
         <Grid container key={key}>
+          <Grid container justifyContent="center">
+            <Grid item xs={6}>
+              <Image src={item.img}/>
+            </Grid>
+          </Grid>
           <Typography variant="h3">{item.title}</Typography>
           <Typography>{item.text}</Typography>
         </Grid>
