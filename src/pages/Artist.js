@@ -29,7 +29,7 @@ function Artist() {
   return (
     <Container>
 
-      <Typography variant="h2" mt={5}>Эксклюзивные артисты</Typography>
+      <Typography variant="h2" mt={5}>Об участниках</Typography>
       <Grid container spacing={5} mt={3} mb={3}>
         {artist.map((item, key) => (
           <Grid key={key} container spacing={2} item xs={4}>

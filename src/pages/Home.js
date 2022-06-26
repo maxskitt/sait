@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <Container>
-      <Typography variant="h1" sx={{ textAlign: 'center' }} mt={5}>L Music</Typography>
+      <Typography variant="h1" sx={{ textAlign: 'center' }} mt={5}>The Kugut project</Typography>
       <Stack spacing={2}>
         <Typography variant="subtitle1">
           «L Music» - российский музыкальный лейбл, основанный в середине 2016 года.

@@ -11,23 +11,23 @@ function Header() {
         <Toolbar disableGutters>
           <Grid container>
 
-            <Grid item xs={2} alignItems="center"><p>Logo</p></Grid>
+            <Grid item xs={2} alignItems="center"><p>The Kugut project</p></Grid>
 
             <Grid xs={10} container item justifyContent="flex-end" alignItems="center">
               <nav>
-                <Button sx={{ color: 'white' }} component="a" href="/">Home</Button>
+                <Button sx={{ color: 'white' }} component="a" href="/">Домашняя страница</Button>
               </nav>
               <nav>
-                <Button sx={{ color: 'white' }} component="a" href="/artists">Artist</Button>
+                <Button sx={{ color: 'white' }} component="a" href="/artists">ОБ УЧАСТНИКАХ</Button>
               </nav>
               <nav>
-                <Button sx={{ color: 'white' }} href="/music">Music</Button>
+                <Button sx={{ color: 'white' }} href="/music">Медиа</Button>
               </nav>
               <nav>
-                <Button sx={{ color: 'white' }} href="/afisha">Afisha</Button>
+                <Button sx={{ color: 'white' }} href="/afisha">Афиша</Button>
               </nav>
               <nav>
-                <Button sx={{ color: 'white' }} href="/news">News</Button>
+                <Button sx={{ color: 'white' }} href="/news">Новости</Button>
               </nav>
             </Grid>
 

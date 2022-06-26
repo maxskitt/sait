@@ -3,7 +3,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 import { collection, getDocs } from 'firebase/firestore/lite';
 import db from '../firebase';
-import { Grid } from '@mui/material';
+import { Box, Grid } from '@mui/material';
 import Image from 'mui-image';
 
 function Afisha() {
@@ -39,6 +39,7 @@ function Afisha() {
         </Grid>
       ))}
 
+      <Box mb={5}/>
 
     </Container>
   );

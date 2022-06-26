@@ -28,7 +28,7 @@ function Music() {
   return (
     <Container>
       <Typography variant="h2" mt={5}>
-        Эксклюзивная музыка
+        Медиа
       </Typography>
       <Grid container spacing={3} mt={2} mb={3} justifyContent="center">
         {artist.map((item, key) => (
