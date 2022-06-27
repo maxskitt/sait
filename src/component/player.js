@@ -82,7 +82,6 @@ function Player() {
   return (
     <AudioPlayer
       style={{ borderRadius: '1rem' }}
-      autoPlay
       src={musicTracks[trackIndex].src}
       onPlay={(e) => console.log("onPlay")}
       showSkipControls
