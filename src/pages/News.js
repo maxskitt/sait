@@ -26,16 +26,15 @@ function News() {
     <Container>
       <Typography variant="h2" mt={5}>Новости</Typography>
       {news.map((item, key) => (
-        <Grid container key={key} mb={3}>
+        <Grid container key={key} mb={3} spacing={3}>
           <Typography variant="h4" mt={5}>
             {item.title}
-            "BTS останутся навсегда": бой-бэнд опроверг слухи о распаде
           </Typography>
           <Grid item xs={3}>
             <Image src={item.image}/>
           </Grid>
           <Grid item xs={9}>
-            <Typography variant="body1" mt={5}>
+            <Typography variant="body1">
               {item.text}
             </Typography>
           </Grid>

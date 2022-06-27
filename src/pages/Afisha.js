@@ -28,14 +28,14 @@ function Afisha() {
       <Typography variant="h2" mt={5}>Афиша</Typography>
 
       {afisha.map((item, key) => (
-        <Grid container key={key}>
-          <Grid container justifyContent="center">
-            <Grid item xs={6}>
-              <Image src={item.img}/>
-            </Grid>
+        <Grid container key={key} spacing={2} mb={2}>
+          <Grid item xs={6}>
+            <Image src={item.img} height={200}/>
           </Grid>
-          <Typography variant="h3">{item.title}</Typography>
-          <Typography>{item.text}</Typography>
+          <Grid item xs={6}>
+            <Typography variant="h4">{item.title}</Typography>
+            <Typography>{item.text}</Typography>
+          </Grid>
         </Grid>
       ))}
 
